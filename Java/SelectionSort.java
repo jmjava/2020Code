@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class SelectionSort 
 { 
     public void sort(int[] numbers){
@@ -22,7 +24,7 @@ class SelectionSort
 
 
 public static void main(String[] args) {
-    SelectionSortPractice bubbleSort = new SelectionSortPractice();
+    SelectionSort bubbleSort = new SelectionSort();
     int[] numbers = new int[]{2, 5, 7, 2, 4, 2, 8, 1, 0};
     int[] numbers1 = new int[]{8,7,6,5,4};
     int[] numbers2 = new int[]{2, 5, 7, 2, 4, 2, 8, 1, 0};

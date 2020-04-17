@@ -12,6 +12,7 @@ public class MergeSortPractice {
 	}
 
 	public static void mergeHalves(int[] arr, int[] temp, int leftStart, int rightEnd){
+    }
 		
 
 	public static void main(String[] args) {

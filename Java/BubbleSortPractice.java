@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSortPractice {
 
 
 public void sort(int [] numbers){
