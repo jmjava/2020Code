@@ -22,6 +22,8 @@
 ### Ansible
 
 
+Note: several git repos have been imported for convenience (books i am reading etc)
+
 Notes on importing subtree
 
 git remote add XXX_remote <path-or-url-to-XXX-repo>
