@@ -14,86 +14,71 @@ class BreadthFirstSearchPractice
 	// Constructor 
 	BreadthFirstSearchPractice(int v) 
 	{ 
-<<<<<<< HEAD
 
-		V = v;
-		adj = new LinkedList[v];
-		for (int i=0; i < v ; v++){
-			adj[i]= new LinkedList();
-		}
-=======
-        // Init the adj list and vectors
         V = v;
-        adj = new LinkedList[v];
-        for (int i = 0; i < v; i++){
-            adj[i] = new LinkedList();
+        adj = new LinkedList[V];
+        for (int i = 0; i < v ; i++){
+           adj[i] = new LinkedList();
         }
->>>>>>> 41dd055d1ade52d12d9812df7a342f4cde197906
-	
+    
 	} 
 
 	// Function to add an edge into the graph 
 	void addEdge(int v,int w) 
 	{ 
-<<<<<<< HEAD
 
-		adj[v].add(w);
-=======
-        // from v add a link to w
         adj[v].add(w);
->>>>>>> 41dd055d1ade52d12d9812df7a342f4cde197906
-		
+	
 	} 
 
 	// prints BFS traversal from a given source s 
 	void BreadthFirstSearchPractice(int s) 
 	{ 
 
-<<<<<<< HEAD
-		// create the boolean visited
+	// create the boolean visited
 		// create the queue
-		// add to queue current to queue
-		// mark current as visite
+		// add  current to queue
+		// mark current as visited
 		// while loop
 		//   pop from queue
 		//   mark visited
 		//   iterate over children
 		//     add to queue
-		//     mark as visited
-		
-=======
-        boolean visited[] = new boolean[V];
+        //     mark as visited
+        
+      boolean[] visited = new boolean[V];
+      LinkedList<Integer> queue = new LinkedList<>();
 
-        LinkedList<Integer> queue = new LinkedList<Integer>();
+      visited[s] = true;
+      queue.add(s);
 
-        visited[s] = true;
-        queue.add(s);
+      while (!queue.isEmpty()){
 
-        while (queue.size() != 0 ){
             s = queue.poll();
             System.out.print(s + " ");
 
-            // this is breadth first as all children for each node
-            // added to the queue then 
+            Iterator<Integer> iter = adj[s].iterator();
 
-            Iterator<Integer> i = adj[s].listIterator();
-            while (i.hasNext()){
-                int n = i.next();
-                if (!visited[n])
-                {
-                    visited[n] = true;
-                    queue.add(n);
+            while (iter.hasNext()){
+                int current = iter.next();
+                if (!visited[current]){
+                    visited[current] = true;
+                    queue.add(current);
                 }
-
             }
-        }
 
 
->>>>>>> 41dd055d1ade52d12d9812df7a342f4cde197906
+
+      }
+
+        
+
+		
 		
 	} 
 
-	// Driver method to 
+    // Driver method to 
+    
 	public static void main(String args[]) 
 	{ 
 		BreadthFirstSearchPractice g = new BreadthFirstSearchPractice(4); 
