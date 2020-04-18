@@ -2,29 +2,10 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jmjava/2020Code)
 
-## This workspace:
 
-### Python
-### Java
-### Go
+## Note: several git repos have been imported for convenience (books i am reading etc)
 
-## Coming Soon in Related Projects
-
-### Flutter / Dart 
-### Julia 
-### Lua 
-### Rust/Webassembly 
-
-## Planned:
-
-### Envoy proxy
-### Gloo
-### Ansible
-
-
-Note: several git repos have been imported for convenience (books i am reading etc)
-
-Notes on importing subtree
+# Notes on importing subtree
 
 git remote add XXX_remote <path-or-url-to-XXX-repo>
   
