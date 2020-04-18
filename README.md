@@ -1,24 +1,26 @@
-2020 Coding Practice
+# 2020 Coding Practice
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jmjava/2020Code)
 
-This workspace:
+## This workspace:
 
-Python
-Java
-Go
+### Python
+### Java
+### Go
 
-Coming Soon:
+## Coming Soon in Related Projects
 
-Flutter / Dart (coming)
-Julia (coming)
-Lua (coming)
-Rust/Webassembly (coming)
+### Flutter / Dart 
+### Julia 
+### Lua 
+### Rust/Webassembly 
 
-Planned:
+## Planned:
 
-Envoy proxy
-Gloo
+### Envoy proxy
+### Gloo
+### Ansible
+
 
 
 
