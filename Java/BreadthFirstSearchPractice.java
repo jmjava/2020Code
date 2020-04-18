@@ -14,18 +14,38 @@ class BFSGraph
 	// Constructor 
 	BFSGraph(int v) 
 	{ 
+
+		V = v;
+		adj = new LinkedList[v];
+		for (int i=0; i < v ; v++){
+			adj[i]= new LinkedList();
+		}
 	
 	} 
 
 	// Function to add an edge into the graph 
 	void addEdge(int v,int w) 
 	{ 
+
+		adj[v].add(w);
 		
 	} 
 
 	// prints BFS traversal from a given source s 
 	void BFS(int s) 
 	{ 
+
+		// create the boolean visited
+		// create the queue
+		// add to queue current to queue
+		// mark current as visite
+		// while loop
+		//   pop from queue
+		//   mark visited
+		//   iterate over children
+		//     add to queue
+		//     mark as visited
+		
 		
 	} 
 
