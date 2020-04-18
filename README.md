@@ -2,8 +2,7 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jmjava/2020Code)
 
-
-# Note: several git repos have been imported for convenience (books i am reading etc)
+# Note: several git repos have been imported for convenience 
 
 ## Notes on importing subtree
 
