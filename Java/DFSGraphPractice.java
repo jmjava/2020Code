@@ -15,14 +15,14 @@ class DFSGraphPractice
 	// Constructor 
 	DFSGraphPractice(int v) 
 	{ 
-       //init variables
-	
+      // iniitialize the structure
 	} 
 
 	//Function to add an edge into the graph 
 	void addEdge(int v, int w) 
 	{ 
         // Add w to v's list. 
+      
 	} 
 
 	// this is the recursive function
@@ -30,17 +30,15 @@ class DFSGraphPractice
 	{ 
       // make visited
       // get iterator for children
-      // iterate
-      // if not visited recurse 
-	
-	} 
-
+      // iterate over childern
+      //   if not visited recurse (within the while)
+    }
 	// this intializes the recursive function
 	void DFSGraphPractice(int v) 
 	{ 
        //initialize the boolean
        //call the recursive func
-		
+    
 	} 
 
 	public static void main(String args[]) 

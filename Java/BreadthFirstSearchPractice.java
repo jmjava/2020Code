@@ -15,11 +15,7 @@ class BreadthFirstSearchPractice
 	BreadthFirstSearchPractice(int v) 
 	{ 
 
-        V = v;
-        adj = new LinkedList[V];
-        for (int i = 0; i < v ; i++){
-           adj[i] = new LinkedList();
-        }
+       // initialize the fields
     
 	} 
 
@@ -27,7 +23,7 @@ class BreadthFirstSearchPractice
 	void addEdge(int v,int w) 
 	{ 
 
-        adj[v].add(w);
+        // add m to list v
 	
 	} 
 
@@ -35,47 +31,23 @@ class BreadthFirstSearchPractice
 	void BreadthFirstSearchPractice(int s) 
 	{ 
 
-	// create the boolean visited
-		// create the queue
-		// add  current to queue
-		// mark current as visited
+	    // create the boolean visited
+		// create the Linked List queue
+		// add initial to queue
+		// mark initial as visited
 		// while loop
-		//   pop from queue
-		//   mark visited
-		//   iterate over children
-		//     add to queue
-        //     mark as visited
+		//   pop from queue		
+        //   iterate over children
+        //        if not visited
+        //              mark as visited
+        //              add to queue
         
-      boolean[] visited = new boolean[V];
-      LinkedList<Integer> queue = new LinkedList<>();
-
-      visited[s] = true;
-      queue.add(s);
-
-      while (!queue.isEmpty()){
-
-            s = queue.poll();
-            System.out.print(s + " ");
-
-            Iterator<Integer> iter = adj[s].iterator();
-
-            while (iter.hasNext()){
-                int current = iter.next();
-                if (!visited[current]){
-                    visited[current] = true;
-                    queue.add(current);
-                }
-            }
+     
 
 
-
-      }
-
-        
-
+      }		
 		
-		
-	} 
+	
 
     // Driver method to 
     
