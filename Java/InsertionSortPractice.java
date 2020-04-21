@@ -1,13 +1,13 @@
 // Java program for implementation of Insertion Sort 
 class InsertionSortPractice { 
 	/*Function to sort array using insertion sort*/
-	void sort(int arr[]) 
-
-
-
-
-	
-	{ 
+    void sort(int arr[]){
+    
+         // outer starts at 1
+         // j starts outer - 1
+         // while for j > 0 gt key
+         
+         // add back to j and set to key
 	
 	} 
 
@@ -26,7 +26,7 @@ class InsertionSortPractice {
 	{ 
 		int arr[] = { 12, 11, 13, 5, 6 }; 
 
-		InsertionSort ob = new InsertionSort(); 
+		InsertionSortPractice ob = new InsertionSortPractice(); 
 		ob.sort(arr); 
 
 		printArray(arr); 
