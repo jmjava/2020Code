@@ -3,15 +3,43 @@ import java.util.Arrays;
 public class MergeSortPractice {
 
 	public static void mergeSort(int[] arr){
+        // start the merge
+        // pass in original, new temp, lefmost, rightmost
 		
 	}
 
 
 	public static void mergeSort(int[] arr, int[] temp, int leftStart, int rightEnd){
+
+        // check bounds outer ends
+        // compute middle
+        // sort left
+        // sort right
+        // mergeHalves outer bounds
 		
 	}
 
 	public static void mergeHalves(int[] arr, int[] temp, int leftStart, int rightEnd){
+
+        // leftEnd
+        // rightStart
+        // size
+
+        // left
+        // right
+        // index
+
+        // while in bounds 
+            // left or right 
+            // move to temp[index]
+            // increment l or r
+            // increment index
+
+        // copy remaining from left and right (end - start  + 1)
+        // copy from temp
+          
+
+
     }
 		
 
