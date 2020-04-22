@@ -1,0 +1,166 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SpringDataJpaFirstExampleApplication<Spring-Data-JPA-Trial-Run>",
+      "request": "launch",
+      "mainClass": "com.in28minutes.SpringDataJpaFirstExampleApplication",
+      "projectName": "Spring-Data-JPA-Trial-Run"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ConfigServerApplication<config-server>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.ConfigServerApplication",
+      "projectName": "config-server"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DataFlowShellApplication<data-flow-shell>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.DataFlowShellApplication",
+      "projectName": "data-flow-shell"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-EurekaServerApplication<eureka-server>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.eureka.EurekaServerApplication",
+      "projectName": "eureka-server"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-EventStoreSinkApplication<event-store-sink>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.EventStoreSinkApplication",
+      "projectName": "event-store-sink"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LocalDataFlowServierApplication<local-data-flow-servier>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.LocalDataFlowServierApplication",
+      "projectName": "local-data-flow-servier"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LaunchJavaContext<mastering-spring-examples>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.context.LaunchJavaContext",
+      "projectName": "mastering-spring-examples"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LaunchXmlContext<mastering-spring-examples>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.context.LaunchXmlContext",
+      "projectName": "mastering-spring-examples"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-PrimaryAnnotationJavaContext<mastering-spring-examples>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.context.PrimaryAnnotationJavaContext",
+      "projectName": "mastering-spring-examples"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-MicroserviceAApplication<microservice-a>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.MicroserviceAApplication",
+      "projectName": "microservice-a"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ServiceConsumerApplication<service-consumer>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.consumer.ServiceConsumerApplication",
+      "projectName": "service-consumer"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SignificantStockChangeSourceApplication<significant-stock-change-source>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.SignificantStockChangeSourceApplication",
+      "projectName": "significant-stock-change-source"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SimpleLoggingTaskApplication<simple-logging-task>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.SimpleLoggingTaskApplication",
+      "projectName": "simple-logging-task"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SpringReactiveExampleApplication<spring-reactive-example>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.reactive.SpringReactiveExampleApplication",
+      "projectName": "spring-reactive-example"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Application<springboot-example-ch5>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.springboot.Application",
+      "projectName": "springboot-example-ch5"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Application<springboot-example-ch6-old>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.springboot.Application",
+      "projectName": "springboot-example-ch6-old"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Application<springboot-example-ch6>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.springboot.Application",
+      "projectName": "springboot-example-ch6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Application<springboot-example-ch7>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.springboot.Application",
+      "projectName": "springboot-example-ch7"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-StockIntelligenceProcessorApplication<stock-intelligence-processor>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.cloud.data.flow.StockIntelligenceProcessorApplication",
+      "projectName": "stock-intelligence-processor"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ZipkinDistributedTracingServerApplication<zipkin-distributed-tracing-server>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.zipkin.ZipkinDistributedTracingServerApplication",
+      "projectName": "zipkin-distributed-tracing-server"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ZuulApiGatewayServerApplication<zuul-api-gateway-server>",
+      "request": "launch",
+      "mainClass": "com.mastering.spring.zuul.ZuulApiGatewayServerApplication",
+      "projectName": "zuul-api-gateway-server"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-CoinChange",
+      "request": "launch",
+      "mainClass": "CoinChange"
+    }
+  ]
+}
