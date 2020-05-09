@@ -1,4 +1,3 @@
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -30,7 +29,7 @@ public class ToplologicalSort {
 
 	boolean undirected = true;
 
-	public Graph(String file) throws FileNotFoundException {
+	public ToplologicalSort(String file) throws FileNotFoundException {
 
 		Scanner sc = new Scanner(new File(file));
 
@@ -144,8 +143,9 @@ public class ToplologicalSort {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter graph input file name: ");
-		String file  = sc.nextLine();
-		Graph  graph = new Graph(file);
+        String file  = sc.nextLine();
+       
+		ToplologicalSort graph = new ToplologicalSort(file);
 		graph.print();
 
 		System.out.println("Doing DFS...");
